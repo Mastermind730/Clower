@@ -41,8 +41,8 @@ export default function Clover() {
         </div>
 
         {/* Clover Description */}
-        <section className="px-5 md:px-[5%]">
-          <p className="text-primary font-light text-center text-2xl md:text-5xl lg:text-4xl xl:text-3xl 2xl:text-6xl leading-relaxed md:leading-[5rem] lg:leading-[4rem] xl:leading-[3rem] 2xl:leading-[7rem] uppercase">
+        <section className="px-6 md:px-12 lg:px-24 py-12 md:py-20">
+          <p className="text-primary text-green-500 font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem] uppercase tracking-wider">
             Clover is a unique feature within the Power ecosystem that rewards
             users for their sustainable energy habits. By achieving milestones and
             leveling up, users can earn Clover Tokens, which can be converted into
@@ -55,7 +55,7 @@ export default function Clover() {
           <div className="flex flex-col md:flex-row items-center md:items-start lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
             <div className="max-w-md">
               <Image src="/fire.png" alt="Fire" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Fire</h3>
+              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Fire</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Overall consumption reduction - Earn achievements by reducing your
                 overall energy consumption and making your home more energy-efficient.
@@ -64,7 +64,7 @@ export default function Clover() {
             
             <div className="max-w-md">
               <Image src="/air.png" alt="Air" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Air</h3>
+              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Air</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Regulating or improving air quality - Achieve milestones by
                 improving indoor air quality, reducing pollution, and promoting a healthier
@@ -86,7 +86,7 @@ export default function Clover() {
           <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
             <div className="max-w-md">
               <Image src="/water.png" alt="Water" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Water</h3>
+              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Water</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Minimisation in water usage - Earn achievements by conserving water,
                 reducing waste, and promoting sustainable water management practices.
@@ -95,7 +95,7 @@ export default function Clover() {
             
             <div className="max-w-md">
               <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-semibold text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
+              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
               <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
                 Reduction of Carbon emissions - Level up by reducing your carbon
                 footprint, using renewable energy sourcing and promoting sustainable practices.
@@ -108,8 +108,8 @@ export default function Clover() {
               <Image src="/wheel.png" alt="Ether Wheel" width={300} height={300} />
             </div>
             <div className="lg:w-3/5">
-              <h2 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
-                <span className="text-primary">Earning Ether</span> Achievements
+              <h2 className="text-white font-extralight text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
+                <span className="text-primary font-extralight text-green-500">Earning Ether</span> Achievements
               </h2>
               <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed md:leading-[3rem] 2xl:leading-[4rem] mt-4">
                 In addition to the four leaves, users can earn Ether achievements by
@@ -125,8 +125,8 @@ export default function Clover() {
         <section className="px-5 md:px-[5%]">
           <div className="grid lg:grid-cols-2 gap-20 md:gap-10 lg:gap-10 2xl:gap-48 items-center lg:gap-y-32">
             <div>
-              <h3 className="text-white font-bold uppercase text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl">
-                Retail <span className="text-primary">REWARDS</span>
+              <h3 className="text-white font-extralight uppercase text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl">
+                Retail <span className="text-primary text-green-500">REWARDS</span>
               </h3>
               <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed lg:pr-10 2xl:pr-24">
                 With Clover Tokens, users can redeem a variety of Retail Rewards
@@ -158,8 +158,8 @@ export default function Clover() {
             </div>
             
             <div>
-              <h3 className="text-white font-bold uppercase text-4xl md:text-8xl lg:text-6xl 2xl:text-8xl">
-                <span className="text-primary">Clover</span> Coin
+              <h3 className="text-white font-extralight uppercase text-4xl md:text-8xl lg:text-6xl 2xl:text-8xl">
+                <span className="text-primary text-green-500">Clover</span> Coin
               </h3>
               <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed">
                 The Clover Coin is a family-friendly environment designed to educate
@@ -174,15 +174,15 @@ export default function Clover() {
 
         {/* Aether Coin Section */}
         <section className="px-5 md:px-[5%] py-20 md:py-48">
-          <div className="relative">
+          <div className="relative flex align-center justify-around">
             <Image 
               src="/eather.png" 
               alt="Aether Coin" 
-              width={1500} 
-              height={600}
+              width={300} 
+              height={200}
               className="hidden lg:block w-full"
             />
-            <Image 
+            {/* <Image 
               src="/eather1.png" 
               alt="Aether Coin Mobile" 
               width={800} 
@@ -192,16 +192,16 @@ export default function Clover() {
             <Image 
               src="/eather2.png" 
               alt="Aether Coin Tablet" 
-              width={1200} 
+              width={700} 
               height={500}
               className="hidden md:block lg:hidden w-full"
-            />
+            /> */}
             
             <div className="absolute inset-5 lg:inset-12 flex flex-col justify-center lg:w-1/2">
-              <h2 className="text-primary font-bold text-center md:text-left text-2xl lg:text-5xl 2xl:text-8xl uppercase">
+              <h2 className="text-primary font-extralight text-green-500 text-center md:text-left text-2xl lg:text-5xl 2xl:text-8xl uppercase">
                 The aether coin
               </h2>
-              <p className="text-light font-light text-center md:text-left text-sm lg:text-xl 2xl:text-3xl leading-relaxed">
+              <p className="text-light text-light font-light text-center md:text-left text-sm lg:text-xl 2xl:text-3xl leading-relaxed">
                 As you progress on your journey, you&apos;ll be rewarded with Clover
                 Aether coins, the ultimate symbol of sustainable energy achievement.
                 The Aether Coin represents the pinnacle of our collective efforts to
@@ -237,8 +237,8 @@ export default function Clover() {
 
     {/* Text Overlay */}
     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 z-20">
-      <h2 className="text-white font-semibold uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl mb-4">
-        Join the <span className="text-primary">community</span>
+      <h2 className="text-white font-extralight uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl mb-4">
+        Join the <span className="text-primary text-green-500">community</span>
       </h2>
       <p className="text-white font-light text-lg md:text-xl 2xl:text-3xl leading-relaxed">
         Clover is a solo and multiplayer mission.<br />
@@ -254,9 +254,9 @@ export default function Clover() {
         <section className="px-5 md:px-[5%] py-20 md:py-48">
           <div className="flex flex-col md:flex-row items-center justify-between md:gap-10">
             <div className="md:w-1/2">
-              <h2 className="text-white font-normal text-center md:text-left text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl md:leading-[5rem] lg:leading-[6rem] 2xl:leading-[8rem] uppercase">
+              <h2 className="text-white font-extralight text-center md:text-left text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl md:leading-[5rem] lg:leading-[6rem] 2xl:leading-[8rem] uppercase">
                 Stay on top of <br className="hidden lg:block" />
-                your <br /> <span className="text-primary">achievements</span>
+                your <br /> <span className="text-primary text-green-500">achievements</span>
               </h2>
             </div>
             <div className="md:w-1/2">
@@ -274,8 +274,8 @@ export default function Clover() {
         {/* Earn Tokens Section */}
         <section className="px-5 md:px-[5%]">
           <div>
-            <h2 className="text-white font-bold text-center uppercase text-4xl md:text-5xl 2xl:text-8xl">
-              How to earn <span className="text-primary">Clover token</span>
+            <h2 className="text-white font-extralight text-center uppercase text-4xl md:text-5xl 2xl:text-8xl">
+              How to earn <span className="text-primary text-green-500">Clover token</span>
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8 mt-14 md:mt-28">
@@ -332,7 +332,7 @@ export default function Clover() {
                     />
                   </div>
                   <div className="md:w-3/4">
-                    <h4 className="text-white font-semibold text-2xl lg:text-xl 2xl:text-3xl">{item.title}</h4>
+                    <h4 className="text-white font-extralight text-2xl lg:text-xl 2xl:text-3xl">{item.title}</h4>
                     <p className="text-light font-light text-lg lg:text-base 2xl:text-xl leading-relaxed">
                       {item.description}
                     </p>
@@ -346,8 +346,8 @@ export default function Clover() {
         {/* Progress Section */}
         <section className="px-8 md:px-[8%] my-20 md:my-48">
           <div>
-            <h2 className="text-white font-normal uppercase text-center text-3xl md:text-5xl">
-              TRACK YOUR <span className="text-primary">PROGRESS</span>
+            <h2 className="text-white font-extralight uppercase text-center text-3xl md:text-5xl">
+              TRACK YOUR <span className="text-primary text-green-500">PROGRESS</span>
             </h2>
             <p className="text-para font-light text-center text-lg md:text-xl">
               Accurately monitor your journey towards a more sustainable future
@@ -394,7 +394,7 @@ export default function Clover() {
                 }
               ].map((item, index) => (
                 <div key={index}>
-                  <h3 className={`font-normal text-xl md:text-2xl ${item.color}`}>{item.title}</h3>
+                  <h3 className={`font-extralight text-xl md:text-2xl ${item.color}`}>{item.title}</h3>
                   <p className="text-white font-light text-base md:text-xl leading-relaxed">
                     {item.description}
                   </p>
