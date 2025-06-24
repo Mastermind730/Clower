@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Clover() {
   return (
-    <div className="bg-secondary">
+    <div className="bg-[#313131]">
       <Head>
         <title>Power - Clover Sustainability Rewards</title>
         <meta name="description" content="Earn rewards for sustainable energy habits with Clover" />
