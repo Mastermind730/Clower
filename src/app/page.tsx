@@ -252,20 +252,20 @@ export default function Clover() {
 
         {/* Mobile App Section */}
         <section className="px-5 md:px-[5%] py-20 md:py-48">
-          <div className="flex flex-col md:flex-row items-center justify-between md:gap-10">
+          <div className="flex flex-col md:flex-row items-center justify-around md:gap-10">
             <div className="md:w-1/2">
               <h2 className="text-white font-extralight text-center md:text-left text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl md:leading-[5rem] lg:leading-[6rem] 2xl:leading-[8rem] uppercase">
                 Stay on top of <br className="hidden lg:block" />
                 your <br /> <span className="text-primary text-green-500">achievements</span>
               </h2>
             </div>
-            <div className="md:w-1/2">
+            <div className="">
               <Image 
                 src="/clover-app.png" 
                 alt="Clover App" 
-                width={500} 
-                height={800}
-                className="w-3/4 mx-auto md:mx-0"
+                width={400} 
+                height={500}
+                className="  md:mx-0"
               />
             </div>
           </div>
