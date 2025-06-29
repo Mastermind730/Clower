@@ -189,7 +189,7 @@ export default function Clover() {
           The Aether Coin
         </h2>
         <p className="text-gray-300 font-light text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose">
-          As you progress on your journey, you'll be rewarded with Clover
+          As you progress on your journey, you&apos;ll be rewarded with Clover
           Aether coins, the ultimate symbol of sustainable energy achievement.
           The Aether Coin represents the pinnacle of our collective efforts to
           create a more sustainable future, where community collaboration and
