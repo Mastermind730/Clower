@@ -82,31 +82,31 @@ export default function Navbar() {
           {/* Navigation Links - Desktop */}
           <div className="hidden text-xl lg:flex items-center space-x-8">
             <Link
-              href="/fire"
+              href="/coming_soon"
               className="text-red-500 hover:text-red-300  font-medium transition-colors duration-200"
             >
               Fire
             </Link>
             <Link
-              href="/earth"
+              href="/coming_soon"
               className="text-green-400 hover:text-green-200  font-medium transition-colors duration-200"
             >
               Earth
             </Link>
             <Link
-              href="/water"
+              href="/coming_soon"
               className="text-blue-400 hover:text-blue-200  font-medium transition-colors duration-200"
             >
               Water
             </Link>
             <Link
-              href="/ether"
+              href="/coming_soon"
               className="text-pink-300 hover:text-pink-100  font-medium transition-colors duration-200"
             >
               Ether
             </Link>
             <Link
-              href="/air"
+              href="/coming_soon"
               className="text-yellow-400 hover:text-yellow-200  font-medium transition-colors duration-200"
             >
               Air
@@ -178,14 +178,14 @@ export default function Navbar() {
         >
           <div className="space-y-1 pt-4 border-t border-slate-700/50">
             {[
-              { href: "/fire", label: "Fire", color: "text-red-500 hover:text-red-300" },
-              { href: "/earth", label: "Earth", color: "text-green-400 hover:text-green-200" },
-              { href: "/water", label: "Water", color: "text-blue-400 hover:text-blue-200" },
-              { href: "/ether", label: "Ether", color: "text-pink-300 hover:text-pink-100" },
-              { href: "/air", label: "Air", color: "text-yellow-400 hover:text-yellow-200" },
+              { href:"/coming_soon", label: "Fire", color: "text-red-500 hover:text-red-300" },
+              { href: "/coming_soon", label: "Earth", color: "text-green-400 hover:text-green-200" },
+              { href: "/coming_soon", label: "Water", color: "text-blue-400 hover:text-blue-200" },
+              { href: "/coming_soon", label: "Ether", color: "text-pink-300 hover:text-pink-100" },
+              { href :"/coming_soon", label: "Air", color: "text-yellow-400 hover:text-yellow-200" },
             ].map((item, index) => (
               <Link
-                key={item.href}
+                key={item.label}
                 href={item.href}
                 onClick={closeMobileMenu}
                 className={`block px-4 py-3 ${item.color} hover:bg-slate-700/50 rounded-md text-sm font-medium transition-all duration-200`}

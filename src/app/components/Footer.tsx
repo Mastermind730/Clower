@@ -36,10 +36,10 @@ export default function Footer() {
               Partners
             </Link> */}
             <Link 
-              href="/poem" 
+              href="/coming_soon" 
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors duration-200"
             >
-              Poem
+              Partner with Us
             </Link>
           </nav>
         </div>
