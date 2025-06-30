@@ -25,8 +25,7 @@ export default function Clover() {
           </div>
           
           <h3 className="text-white font-light text-center text-xl md:text-3xl 2xl:text-4xl leading-relaxed md:leading-[4rem] uppercase">
-            Incentivising Carbon Reduction can encourage users to take actions
-            that reduce their carbon footprint.
+          At Clover believe that driving environmental impact should be made easy for everyone.
           </h3>
         </section>
 
@@ -46,7 +45,7 @@ export default function Clover() {
 
         {/* Clover Description */}
         <section className="px-6 md:px-12 lg:px-24 py-12 md:py-20">
-          <p className="text-primary text-white font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem] uppercase tracking-wider">
+          <p className="text-primary bg-[#313131] bg-clip-text text-white font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
             Clover is a unique feature within the Power ecosystem that rewards
             users for their sustainable energy habits. By achieving milestones and
             leveling up, users can earn Clover Tokens, which can be converted into
@@ -55,78 +54,95 @@ export default function Clover() {
         </section>
 
         {/* Elements Section */}
-        <section className="px-5 md:px-[5%] py-20 md:py-48">
-          <div className="flex flex-col md:flex-row items-center md:items-start lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
-            <div className="max-w-md">
-              <Image src="/fire.png" alt="Fire" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Fire</h3>
-              <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
-                Overall consumption reduction - Earn achievements by reducing your
-                overall energy consumption and making your home more energy-efficient.
-              </p>
-            </div>
-            <div className="max-w-md">
-              <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
-              <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
-                Reduction of Carbon emissions - Level up by reducing your carbon
-                footprint, using renewable energy sourcing and promoting sustainable practices.
-              </p>
-            </div>
-            
-            
-          </div>
-          
-          <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
-            <Image
-              src="/clover-logob.png"
-              alt="Clover Logo"
-              width={200}
-              height={200}
-              className="w-48 md:w-64 2xl:w-auto"
-            />
-          </div>
-          
-          <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
-           
-            
-            <div className="max-w-md">
-              <Image src="/air.png" alt="Air" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Air</h3>
-              <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
-                Regulating or improving air quality - Achieve milestones by
-                improving indoor air quality, reducing pollution, and promoting a healthier
-                environment.
-              </p>
-            </div>
+<section className="px-5 md:px-[5%] py-20 md:py-48">
+  {/* Colorful Heading */}
+  <div className="mb-20 md:mb-32 text-center">
+    <h2 className="text-4xl md:text-6xl lg:text-7xl 2xl:text-8xl font-extralight  mb-6">
+      {/* <span className="text-red-500">F</span>
+      <span className="text-green-400">I</span>
+      <span className="text-blue-400">V</span>
+      <span className="text-yellow-400">E</span> */}
+      <span className="text-pink-300 ml-4">E</span>
+      <span className="text-red-500">l</span>
+      <span className="text-green-400">e</span>
+      <span className="text-blue-400">m</span>
+      <span className="text-yellow-400">e</span>
+      <span className="text-pink-300">n</span>
+      <span className="text-red-500">t</span>
+      <span className="text-green-400">s</span>
+    </h2>
+    <p className="text-light font-light text-xl md:text-2xl max-w-3xl mx-auto">
+      Discover how each element represents a different aspect of sustainable living
+    </p>
+  </div>
 
-             <div className="max-w-md">
-              <Image src="/water.png" alt="Water" width={100} height={100} className="w-24" />
-              <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Water</h3>
-              <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
-                Minimisation in water usage - Earn achievements by conserving water,
-                reducing waste, and promoting sustainable water management practices.
-              </p>
-            </div>
-          </div>
-          
-          <div className="flex flex-col lg:flex-row lg:items-center gap-8 p-8 md:p-12 2xl:p-16 bg-[#282828] rounded-[50px] mt-20 md:mt-48">
-            <div className="lg:w-2/5">
-              <Image src="/wheel.png" alt="Ether Wheel" width={300} height={300} />
-            </div>
-            <div className="lg:w-3/5">
-              <h2 className="text-white font-extralight text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
-                <span className="text-primary font-extralight text-green-500">Earning Ether</span> Achievements
-              </h2>
-              <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed md:leading-[3rem] 2xl:leading-[4rem] mt-4">
-                In addition to the four leaves, users can earn Ether achievements by
-                participating in quests, challenges, and data contribution. These
-                achievements can be redeemed for Clover Tokens, which can be
-                converted into Retail Rewards or Clover Coin.
-              </p>
-            </div>
-          </div>
-        </section>
+  <div className="flex flex-col md:flex-row items-center md:items-start lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
+    <div className="max-w-md">
+      <Image src="/fire.png" alt="Fire" width={100} height={100} className="w-24" />
+      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Fire</h3>
+      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
+        Overall consumption reduction - Earn achievements by reducing your
+        overall energy consumption and making your home more energy-efficient.
+      </p>
+    </div>
+    <div className="max-w-md">
+      <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
+      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
+      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
+        Reduction of Carbon emissions - Level up by reducing your carbon
+        footprint, using renewable energy sourcing and promoting sustainable practices.
+      </p>
+    </div>
+  </div>
+  
+  <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
+    <Image
+      src="/clover-logob.png"
+      alt="Clover Logo"
+      width={200}
+      height={200}
+      className="w-48 md:w-64 2xl:w-auto"
+    />
+  </div>
+  
+  <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
+    <div className="max-w-md">
+      <Image src="/air.png" alt="Air" width={100} height={100} className="w-24" />
+      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Air</h3>
+      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
+        Regulating or improving air quality - Achieve milestones by
+        improving indoor air quality, reducing pollution, and promoting a healthier
+        environment.
+      </p>
+    </div>
+
+    <div className="max-w-md">
+      <Image src="/water.png" alt="Water" width={100} height={100} className="w-24" />
+      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Water</h3>
+      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
+        Minimisation in water usage - Earn achievements by conserving water,
+        reducing waste, and promoting sustainable water management practices.
+      </p>
+    </div>
+  </div>
+  
+  <div className="flex flex-col lg:flex-row lg:items-center gap-8 p-8 md:p-12 2xl:p-16 bg-[#282828] rounded-[50px] mt-20 md:mt-48">
+    <div className="lg:w-2/5">
+      <Image src="/wheel.png" alt="Ether Wheel" width={300} height={300} />
+    </div>
+    <div className="lg:w-3/5">
+      <h2 className="text-white font-extralight text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
+        <span className="text-pink-300 font-extralight">Earning Ether</span> Achievements
+      </h2>
+      <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed md:leading-[3rem] 2xl:leading-[4rem] mt-4">
+        In addition to the four leaves, users can earn Ether achievements by
+        participating in quests, challenges, and data contribution. These
+        achievements can be redeemed for Clover Tokens, which can be
+        converted into Retail Rewards or Clover Coin.
+      </p>
+    </div>
+  </div>
+</section>
 
         {/* Retail Rewards Section */}
         <section className="px-5 md:px-[5%]">
@@ -249,77 +265,84 @@ export default function Clover() {
         </section>
 
         {/* Earn Tokens Section */}
-       <section className="px-5 md:px-[5%] py-16 md:py-24">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-white font-light text-center uppercase text-4xl md:text-5xl 2xl:text-6xl mb-12 md:mb-20">
+      <section className="px-5 md:px-[5%] py-16 md:py-24">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-white font-light text-center uppercase text-4xl md:text-5xl 2xl:text-6xl mb-16 md:mb-24">
       How to earn <span className="text-green-500">Clover token</span>
     </h2>
     
-    <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
+    <div className="space-y-8 md:space-y-12">
       {[
         {
           icon: "/token1.png",
           title: "Proving Power",
-          description: "Users share their energy usage data. Coins are awarded based on the value and frequency of their data contributions."
+          description: "Users share their energy usage data. Coins are awarded based on the value and frequency of their data contributions.",
+          align: "left"
         },
         {
           icon: "/token2.png",
           title: "Green Behaviour",
-          description: "Users track and reduce energy consumption. They earn coins for eco-friendly actions and completing sustainability challenges."
+          description: "Users track and reduce energy consumption. They earn coins for eco-friendly actions and completing sustainability challenges.",
+          align: "right"
         },
         {
           icon: "/token3.png",
           title: "Carbon Credits",
-          description: "Carbon credits are earned based on staking duration. Users redeem these credits for various rewards and benefits"
+          description: "Carbon credits are earned based on staking duration. Users redeem these credits for various rewards and benefits",
+          align: "left"
         },
         {
           icon: "/token4.png",
           title: "Energy Incentives",
-          description: "Gamification motivates customers to save energy through rewards, points, and challenges, leading to cost and environmental benefits."
+          description: "Gamification motivates customers to save energy through rewards, points, and challenges, leading to cost and environmental benefits.",
+          align: "right"
         },
         {
           icon: "/token5.png",
           title: "Family Friendly",
-          description: "Clover token provides a fun and interactive way for children to learn about cryptocurrency and blockchain technology."
+          description: "Clover token provides a fun and interactive way for children to learn about cryptocurrency and blockchain technology.",
+          align: "left"
         },
-        // {
-        //   icon: "/token6.png",
-        //   title: "Customer Loyalty",
-        //   description: "Gamified experiences boost loyalty. Customers who join energy-saving challenges and earn rewards remain loyal to the retailer."
-        // },
         {
           icon: "/token7.png",
           title: "Carbon Quests and Challenges",
-          description: "Gamified challenges and quests reward users for eco-friendly actions, making sustainability fun, engaging, and rewarding."
-        },
-        // {
-        //   icon: "/token8.png",
-        //   title: "Educational Opportunities",
-        //   description: "Retailers can use gamification, like quizzes and interactive games, to educate customers on energy efficiency and environmental impact."
-        // }
+          description: "Gamified challenges and quests reward users for eco-friendly actions, making sustainability fun, engaging, and rewarding.",
+          align: "right"
+        }
       ].map((item, index) => (
         <div 
           key={index} 
-          className="group p-6 md:p-8 rounded-3xl md:rounded-[40px] bg-[#2b2b2b] shadow-lg transition-all duration-300 hover:bg-[#383838] hover:shadow-xl hover:-translate-y-2 flex flex-col md:flex-row gap-6 items-center"
+          className={`flex w-full ${item.align === 'left' ? 'justify-start' : 'justify-end'}`}
         >
-          <div className="md:w-1/4 transition-transform duration-300 group-hover:scale-110">
-            <div className="bg-green-500/10 p-4 rounded-full group-hover:bg-green-500/20 transition-colors duration-300">
-              <Image 
-                src={item.icon} 
-                alt={item.title} 
-                width={100} 
-                height={100}
-                className="w-16 h-16 md:w-20 md:h-20 object-contain"
-              />
+          <div 
+            className={`
+              group max-w-lg w-full p-8 md:p-10 rounded-2xl bg-[#2b2b2b] 
+              shadow-lg transition-all duration-300 hover:bg-[#333333] 
+              hover:shadow-2xl hover:-translate-y-1 border border-gray-700/30
+              ${item.align === 'right' ? 'md:max-w-xl' : 'md:max-w-lg'}
+            `}
+          >
+            <div className="flex items-start gap-6">
+              <div className="flex-shrink-0">
+                <div className="w-32 h-32 md:w-40 md:h-40 bg-green-500/10 rounded-xl flex items-center justify-center group-hover:bg-green-500/15 transition-colors duration-300">
+                  <Image 
+                    src={item.icon} 
+                    alt={item.title} 
+                    width={100} 
+                    height={100}
+                    className="w-12 h-12 md:w-14 md:h-14 object-contain filter brightness-110"
+                  />
+                </div>
+              </div>
+              <div className="flex-1 min-w-0">
+                <h4 className="text-white font-medium text-xl md:text-2xl mb-3 group-hover:text-green-400 transition-colors duration-300 leading-tight">
+                  {item.title}
+                </h4>
+                <p className="text-gray-300 font-light text-base md:text-lg leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                  {item.description}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="md:w-3/4">
-            <h4 className="text-white font-light text-xl md:text-2xl lg:text-xl 2xl:text-2xl mb-2 group-hover:text-green-400 transition-colors duration-200">
-              {item.title}
-            </h4>
-            <p className="text-gray-300 font-light text-base md:text-lg leading-relaxed group-hover:text-gray-100 transition-colors duration-200">
-              {item.description}
-            </p>
           </div>
         </div>
       ))}
