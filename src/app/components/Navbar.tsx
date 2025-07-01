@@ -35,11 +35,11 @@ export default function Navbar() {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className=" mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 text-4xl">
-            <Link href="/" className="group flex items-center">
+          <div className="flex-shrink-0 left-0 text-4xl">
+            <Link href="/" className="group flex font-extralight items-center">
               {/* <svg
                 className="w-[120px] mt-2 h-[30px] 2xl:w-[140px] 2xl:h-[35px]"
                 viewBox="0 0 192 50"
@@ -103,13 +103,13 @@ export default function Navbar() {
               href="/coming_soon"
               className="text-pink-300 hover:text-pink-100  font-medium transition-colors duration-200"
             >
-              Ether
+              Air
             </Link>
             <Link
               href="/coming_soon"
               className="text-yellow-400 hover:text-yellow-200  font-medium transition-colors duration-200"
             >
-              Air
+              Ether
             </Link>
           </div>
 
@@ -117,7 +117,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center">
             <Link
               href="/contact_us"
-              className="group flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
+              className="group flex items-center space-x-2 bg-transparent border-2 border-white  text-gray-400 hover:text-slate-300 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
             >
               <span>Contact Us</span>
               <svg
@@ -181,8 +181,8 @@ export default function Navbar() {
               { href:"/coming_soon", label: "Fire", color: "text-red-500 hover:text-red-300" },
               { href: "/coming_soon", label: "Earth", color: "text-green-400 hover:text-green-200" },
               { href: "/coming_soon", label: "Water", color: "text-blue-400 hover:text-blue-200" },
-              { href: "/coming_soon", label: "Ether", color: "text-pink-300 hover:text-pink-100" },
-              { href :"/coming_soon", label: "Air", color: "text-yellow-400 hover:text-yellow-200" },
+              { href: "/coming_soon", label: "Air", color: "text-pink-300 hover:text-pink-100" },
+              { href :"/coming_soon", label: "Ether", color: "text-yellow-400 hover:text-yellow-200" },
             ].map((item, index) => (
               <Link
                 key={item.label}

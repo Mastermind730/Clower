@@ -45,9 +45,9 @@ export default function Clover() {
 
         {/* Clover Description */}
         <section className="px-6 bg-[#bfd3c1] md:px-12 lg:px-24 py-12 md:py-20">
-          <p className="text-primary bg-[#313131] mt-40 mb-40 bg-clip-text text-white font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
-            Clover is a unique feature within the Power ecosystem that rewards
-            users for their sustainable energy habits. By achieving milestones and
+          <p className="text-primary bg-[#313131] mt-50 mb-50 bg-clip-text text-white font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
+            At Clover believe that driving environmental impact should be made easy for everyone.
+             By achieving milestones and
             leveling up, users can earn Clover Tokens, which can be converted into
             Retail Rewards or Clover Coin.
           </p>
@@ -62,16 +62,16 @@ export default function Clover() {
       <span className="text-green-400">I</span>
       <span className="text-blue-400">V</span>
       <span className="text-yellow-400">E</span> */}
-      <span className="text-pink-300 ml-4">E</span>
-      <span className="text-red-500">l</span>
+      <span className="text-red-500 ml-4">E</span>
+      <span className="text-red-800">l</span>
+      <span className="text-orange-400">e</span>
+      <span className="text-yellow-200">m</span>
       <span className="text-green-400">e</span>
-      <span className="text-blue-400">m</span>
-      <span className="text-yellow-400">e</span>
-      <span className="text-pink-300">n</span>
-      <span className="text-red-500">t</span>
-      <span className="text-green-400">s</span>
+      <span className="text-indigo-400">n</span>
+      <span className="text-indigo-700">t</span>
+      <span className="text-pink-300">s</span>
     </h2>
-    <p className="text-light font-light text-xl md:text-2xl max-w-3xl mx-auto">
+    <p className="text-light font-light text-xl md:text-2xl max-w-4xl mx-auto">
       Discover how each element represents a different aspect of sustainable living
     </p>
   </div>
@@ -140,7 +140,7 @@ export default function Clover() {
     </div>
     <div className="lg:w-3/5">
       <h2 className="text-white font-extralight text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl uppercase">
-        <span className="text-pink-300 font-extralight">Earning Ether</span> Achievements
+        Earning<span className="text-pink-300 font-extralight"> Ether</span> Achievements
       </h2>
       <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed md:leading-[3rem] 2xl:leading-[4rem] mt-4">
         In addition to the four leaves, users can earn Ether achievements by
@@ -158,7 +158,7 @@ export default function Clover() {
           <div className="grid lg:grid-cols-2 gap-20 md:gap-10 lg:gap-10 2xl:gap-48 items-center lg:gap-y-32">
             <div>
               <h3 className="text-white font-extralight uppercase text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl">
-                Retail <span className="text-primary text-green-500">REWARDS</span>
+               <span className="text-primary text-green-500">Retail</span>  REWARDS
               </h3>
               <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed lg:pr-10 2xl:pr-24">
                 With Clover Tokens, users can redeem a variety of Retail Rewards
@@ -186,7 +186,9 @@ export default function Clover() {
             </div>
             
             <div>
-              <Image src="/coin3.jpg" className='rounded-3xl' alt="Clover Coin" width={600} height={600} />
+              <Image src="/coin3.jpg" 
+            className="w-full h-auto object-cover rounded-3xl shadow-xl"
+               alt="Clover Coin" width={600} height={600} />
             </div>
             
             <div>
@@ -211,7 +213,7 @@ export default function Clover() {
       {/* Content on the left */}
       <div className="lg:w-1/2">
         <h2 className="text-green-500 font-light text-3xl md:text-4xl lg:text-5xl xl:text-6xl uppercase mb-6">
-          The Aether Coin
+           Aether <span className='text-white'>Coin</span>
         </h2>
         <p className="text-gray-300 font-light text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose">
           As you progress on your journey, you&apos;ll be rewarded with Clover
@@ -224,13 +226,13 @@ export default function Clover() {
 
       {/* Image on the right */}
       <div className="lg:w-1/2 flex justify-center">
-        <div className="relative w-full max-w-md xl:max-w-lg">
+        <div className="relative w-full  ">
           <Image 
             src="/coin3.jpg" 
             alt="Aether Coin" 
             width={600} 
-            height={400}
-            className="w-full h-auto object-contain rounded-3xl shadow-xl"
+            height={600}
+            className="w-full h-auto object-cover rounded-3xl shadow-xl"
             priority
           />
         </div>
@@ -243,36 +245,54 @@ export default function Clover() {
 
 
         {/* Mobile App Section */}
-        <section className="px-5 bg-[#313131] md:px-[5%] py-20 md:py-48">
-          <div className="flex flex-col md:flex-row items-center justify-around md:gap-10">
-            <div className="md:w-1/2">
-              <h2 className="text-white font-extralight text-center md:text-left text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl md:leading-[5rem] lg:leading-[6rem] 2xl:leading-[8rem] uppercase">
-                Stay on top of <br className="hidden lg:block" />
-                your <br /> <span className="text-primary text-green-500">achievements</span>
-              </h2>
-            </div>
-            <div className="flex justify-center lg:justify-around">
-              <div className="relative">
-                <div className="w-80 h-[660px] p-3 rounded-[3rem] shadow-2xl overflow-hidden">
-                  <Image
-                    src={"/clover-app.png"} // Replace with your actual mobile dashboard image
-                    alt="Energy dashboard mobile app showing usage statistics"
-                    width={350}
-                    height={660}
-                    className="w-full h-full rounded-3xl p-3 object-cover"
-                    quality={100}
-                  />
-                </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
-                  <SmartphoneCharging />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+   <section className="px-5 bg-[#313131] md:px-[5%] py-20 md:py-32">
+  <div className="max-w-7xl mx-auto">
+    {/* Main heading at the top */}
+    <div className="w-full text-center mb-16 md:mb-24">
+      <h2 className="text-white font-extralight text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl md:leading-[5rem] lg:leading-[6rem] 2xl:leading-[8rem] uppercase">
+        Stay on top of your <span className="text-primary text-green-500">achievements</span>
+      </h2>
+    </div>
 
+    {/* Content row */}
+    <div className="flex flex-col lg:flex-row items-center gap-12">
+      {/* Left side - Progress tracking section */}
+      <div className="lg:w-1/2">
+        <div className="max-w-4xl flex justify-center flex-col mx-auto lg:mx-0">
+          <h3 className="text-white text-center text-3xl md:text-4xl lg:text-5xl uppercase font-extralight mb-1">
+            Track your <span className='text-green-400'>Progress</span>
+          </h3>
+          <p className="text-gray-300 text-xl md:text-xl leading-relaxed">
+            Accurately monitor your journey towards a more sustainable future. 
+          </p>
+          
+         
+        </div>
+      </div>
+
+      {/* Right side - Image */}
+      <div className="lg:w-1/2 flex justify-center">
+        <div className="relative">
+          <div className="w-80 h-[660px] p-3 rounded-[3rem] shadow-2xl overflow-hidden bg-black/20">
+            <Image
+              src={"/clover-app.png"}
+              alt="Energy dashboard mobile app showing usage statistics"
+              width={350}
+              height={660}
+              className="w-full h-full rounded-3xl p-3 object-cover"
+              quality={100}
+            />
+          </div>
+          
+          {/* Floating element */}
+          <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+            <SmartphoneCharging className="w-8 h-8 text-white" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {/* </section> */}
 
         {/* Earn Tokens Section */}
@@ -302,60 +322,60 @@ export default function Clover() {
           description: "Carbon credits are earned based on staking duration. Users redeem these credits for various rewards and benefits",
           align: "left"
         },
-        {
-          icon: "/token4.png",
-          title: "Energy Incentives",
-          description: "Gamification motivates customers to save energy through rewards, points, and challenges, leading to cost and environmental benefits.",
-          align: "right"
-        },
+        // {
+        //   icon: "/token4.png",
+        //   title: "Energy Incentives",
+        //   description: "Gamification motivates customers to save energy through rewards, points, and challenges, leading to cost and environmental benefits.",
+        //   align: "right"
+        // },
         {
           icon: "/token5.png",
           title: "Family Friendly",
           description: "Clover token provides a fun and interactive way for children to learn about cryptocurrency and blockchain technology.",
-          align: "left"
+          align: "right"
         },
         {
           icon: "/token7.png",
-          title: "Carbon Quests and Challenges",
+          title: " Quests and Challenges",
           description: "Gamified challenges and quests reward users for eco-friendly actions, making sustainability fun, engaging, and rewarding.",
-          align: "right"
+          align: "left"
         }
       ].map((item, index) => (
         <div 
-          key={index} 
-          className={`flex w-full ${item.align === 'left' ? 'justify-start' : 'justify-end'}`}
-        >
-          <div 
-            className={`
-              group max-w-lg w-full p-8 md:p-10 rounded-2xl bg-[#2b2b2b] 
-              shadow-lg transition-all duration-300 hover:bg-[#333333] 
-              hover:shadow-2xl hover:-translate-y-1 border border-gray-700/30
-              ${item.align === 'right' ? 'md:max-w-xl' : 'md:max-w-lg'}
-            `}
-          >
-            <div className="flex items-start gap-6">
-              <div className="flex-shrink-0">
-                <div className="w-32 h-32 md:w-40 md:h-40 bg-green-500/10 rounded-xl flex items-center justify-center group-hover:bg-green-500/15 transition-colors duration-300">
-                  <Image 
-                    src={item.icon} 
-                    alt={item.title} 
-                    width={100} 
-                    height={100}
-                    className="w-12 h-12 md:w-14 md:h-14 object-contain filter brightness-110"
-                  />
-                </div>
-              </div>
-              <div className="flex-1 min-w-0">
-                <h4 className="text-white font-medium text-xl md:text-2xl mb-3 group-hover:text-green-400 transition-colors duration-300 leading-tight">
-                  {item.title}
-                </h4>
-                <p className="text-gray-300 font-light text-base md:text-lg leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-                  {item.description}
-                </p>
-              </div>
-            </div>
-          </div>
+  key={index} 
+  className={`flex w-full ${item.align === 'left' ? 'justify-start' : 'justify-end'}`}
+>
+  <div 
+    className={`
+      group max-w-9xl w-full p-8 md:p-10 rounded-2xl bg-[#2b2b2b] 
+      shadow-lg transition-all duration-300 hover:bg-[#333333] 
+      hover:shadow-2xl hover:-translate-y-1 border border-gray-700/30
+      ${item.align === 'right' ? 'md:max-w-4xl' : 'md:max-w-3xl'}
+    `}
+  >
+    <div className="flex items-start gap-6">
+      <div className="flex-shrink-0">
+        <div className="w-32 h-32 md:w-40 md:h-40 bg-green-500/10 rounded-xl flex items-center justify-center group-hover:bg-green-500/15 transition-colors duration-300">
+          <Image 
+            src={item.icon} 
+            alt={item.title} 
+            width={100} 
+            height={100}
+            className="w-12 h-12 md:w-14 md:h-14 object-contain filter brightness-110"
+          />
         </div>
+      </div>
+      <div className="flex-1 min-w-0">
+        <h4 className="text-white font-medium text-xl md:text-2xl mb-3 group-hover:text-green-400 transition-colors duration-300 leading-tight">
+          {item.title}
+        </h4>
+        <p className="text-gray-300 font-light text-base md:text-lg leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+          {item.description}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
       ))}
     </div>
   </div>
