@@ -443,7 +443,7 @@ export default function Clover() {
         </section> */}
 
 
-          <section className="px-5 md:px-[2.5%]">
+          <section className="px-5 md:px-[2.5%] mb-10">
   <div className="relative">
     {/* Desktop Background Image */}
     <Image
