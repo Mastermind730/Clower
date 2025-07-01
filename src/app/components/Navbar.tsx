@@ -6,6 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
   const closeMobileMenu = () => {
     setIsOpen(false);
@@ -29,6 +30,14 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  const navItems = [
+    { href: "/coming_soon", label: "Fire", color: "text-[#FE0002] hover:text-red-300" },
+    { href: "/coming_soon", label: "Air", color: "text-[#C79FC4] hover:text-pink-100" },
+    { href: "/coming_soon", label: "Earth", color: "text-[#61D337] hover:text-green-200" },
+    { href: "/coming_soon", label: "Water", color: "text-[#049BDA] hover:text-blue-200" },
+    { href: "/coming_soon", label: "Ether", color: "text-[#FEA211] hover:text-yellow-200" },
+  ];
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 bg-[#313131] backdrop-blur-md border-b border-slate-700/50 transition-transform duration-300 ${
@@ -40,84 +49,39 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 left-0 text-4xl">
             <Link href="/" className="group flex font-extralight items-center">
-              {/* <svg
-                className="w-[120px] mt-2 h-[30px] 2xl:w-[140px] 2xl:h-[35px]"
-                viewBox="0 0 192 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M176.117 27.0588V0.567272H177.869V8.05525C178.978 3.74399 182.364 0 187.617 0C188.726 0 189.952 0.056728 191.412 0.510544L190.886 2.15563C189.544 1.75854 188.493 1.70181 187.617 1.70181C179.62 1.70181 178.044 10.7781 177.869 16.621V27.0588H176.117Z"
-                  fill="#72E549"
-                />
-                <path
-                  d="M160.823 13.7384V14.4764H136.068C136.354 21.4591 141.556 25.944 147.788 25.944C152.076 25.944 155.678 23.957 157.793 20.5508L159.28 21.4591C156.821 25.3195 152.648 27.6471 147.788 27.6471C140.299 27.6471 134.353 22.1404 134.353 13.7384C134.353 5.33639 140.299 0 147.788 0C155.335 0 160.823 5.33639 160.823 13.7384ZM147.788 1.7031C141.442 1.7031 136.525 6.07441 136.068 12.9436H159.108C158.822 6.07441 154.134 1.7031 147.788 1.7031Z"
-                  fill="#72E549"
-                />
-                <path
-                  d="M15.1592 0.587891C22.888 0.587891 29.0587 6.37102 29.0587 14.1386C29.0587 21.9061 22.888 27.6892 15.1592 27.6892C8.61456 27.6892 4.37615 24.2874 2.56859 20.3186V38.235H0.823364V1.09817H2.50626L2.56859 7.84515C4.37615 3.87634 8.61456 0.587891 15.1592 0.587891ZM14.9722 26.1584C21.5791 26.1584 27.1888 21.0556 27.1888 14.1386C27.1888 7.22148 21.5791 2.11872 14.9722 2.11872C7.61729 2.11872 2.56859 14.1386 2.56859 14.1386C2.56859 21.1123 7.61729 26.1584 14.9722 26.1584Z"
-                  fill="#72E549"
-                />
-                <path
-                  d="M55.7937 28.2349C48.2752 28.2349 41.9998 22.323 41.9998 14.4404C41.9998 6.49984 48.2752 0.587891 55.7937 0.587891C63.3123 0.587891 69.6469 6.49984 69.6469 14.4404C69.6469 22.323 63.3123 28.2349 55.7937 28.2349ZM55.7937 26.67C62.1875 26.67 67.8708 21.4536 67.8708 14.4404C67.8708 7.36924 62.1875 2.15282 55.7937 2.15282C49.4 2.15282 43.7167 14.4404 43.7167 14.4404C43.7167 21.4536 49.4 26.67 55.7937 26.67Z"
-                  fill="#72E549"
-                />
-                <path
-                  d="M120.213 0.530541H122L112.202 27.6471H110.703L101.942 2.71165L93.2966 27.6471H91.7981L81.9998 0.530541H83.8442L92.605 25.0533L101.193 0H102.864L111.568 24.9944L120.213 0.530541Z"
-                  fill="#72E549"
-                />
-                <line
-                  x1="0.823364"
-                  y1="49.5588"
-                  x2="26.1175"
-                  y2="49.5588"
-                  stroke="#72E549"
-                  strokeWidth="0.882353"
-                />
-              </svg> */}
               clover
             </Link>
           </div>
 
           {/* Navigation Links - Desktop */}
           <div className="hidden text-xl lg:flex items-center space-x-8">
-            <Link
-              href="/coming_soon"
-              className="text-red-500 hover:text-red-300  font-medium transition-colors duration-200"
-            >
-              Fire
-            </Link>
-            <Link
-              href="/coming_soon"
-              className="text-green-400 hover:text-green-200  font-medium transition-colors duration-200"
-            >
-              Earth
-            </Link>
-            <Link
-              href="/coming_soon"
-              className="text-blue-400 hover:text-blue-200  font-medium transition-colors duration-200"
-            >
-              Water
-            </Link>
-            <Link
-              href="/coming_soon"
-              className="text-pink-300 hover:text-pink-100  font-medium transition-colors duration-200"
-            >
-              Air
-            </Link>
-            <Link
-              href="/coming_soon"
-              className="text-yellow-400 hover:text-yellow-200  font-medium transition-colors duration-200"
-            >
-              Ether
-            </Link>
+            {navItems.map((item) => (
+              <div 
+                key={item.label}
+                className="relative group"
+                onMouseEnter={() => setHoveredItem(item.label)}
+                onMouseLeave={() => setHoveredItem(null)}
+              >
+                <Link
+                  href={item.href}
+                  className={`${item.color} font-medium transition-colors duration-200`}
+                >
+                  {item.label}
+                </Link>
+                {hoveredItem === item.label && (
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded whitespace-nowrap">
+                    Coming Soon
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
 
           {/* Contact Button - Desktop */}
           <div className="hidden lg:flex items-center">
             <Link
               href="/contact_us"
-              className="group flex items-center space-x-2 bg-transparent border-2 border-white  text-gray-400 hover:text-slate-300 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
+              className="group flex items-center space-x-2 bg-transparent border-2 border-white text-gray-400 hover:text-slate-300 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300"
             >
               <span>Contact Us</span>
               <svg
@@ -177,22 +141,23 @@ export default function Navbar() {
           }`}
         >
           <div className="space-y-1 pt-4 border-t border-slate-700/50">
-            {[
-              { href:"/coming_soon", label: "Fire", color: "text-red-500 hover:text-red-300" },
-              { href: "/coming_soon", label: "Earth", color: "text-green-400 hover:text-green-200" },
-              { href: "/coming_soon", label: "Water", color: "text-blue-400 hover:text-blue-200" },
-              { href: "/coming_soon", label: "Air", color: "text-pink-300 hover:text-pink-100" },
-              { href :"/coming_soon", label: "Ether", color: "text-yellow-400 hover:text-yellow-200" },
-            ].map((item, index) => (
-              <Link
+            {navItems.map((item, index) => (
+              <div 
                 key={item.label}
-                href={item.href}
-                onClick={closeMobileMenu}
-                className={`block px-4 py-3 ${item.color} hover:bg-slate-700/50 rounded-md text-sm font-medium transition-all duration-200`}
-                style={{ transitionDelay: `${index * 50}ms` }}
+                className="relative"
               >
-                {item.label}
-              </Link>
+                <Link
+                  href={item.href}
+                  onClick={closeMobileMenu}
+                  className={`block px-4 py-3 ${item.color} hover:bg-slate-700/50 rounded-md text-sm font-medium transition-all duration-200`}
+                  style={{ transitionDelay: `${index * 50}ms` }}
+                >
+                  {item.label}
+                </Link>
+                <span className="absolute right-4 top-3 text-xs text-gray-400">
+                  Coming Soon
+                </span>
+              </div>
             ))}
           </div>
         </div>

@@ -13,21 +13,18 @@ export default function Clover() {
 
       <main>
         {/* Hero Section */}
-        <section className="px-5 md:px-[5%] py-16">
-          <div className="flex justify-center">
-            <Image
-              src="/clover-logo.png"
-              alt="Clover Logo"
-              width={400}
-              height={150}
-              className="w-full max-w-md my-16"
-            />
-          </div>
-          
-          {/* <h3 className="text-white font-light text-center text-xl md:text-3xl 2xl:text-4xl leading-relaxed md:leading-[4rem] uppercase">
-          At Clover believe that driving environmental impact should be made easy for everyone.
-          </h3> */}
-        </section>
+      <section className="px-5 md:px-[5%] py-16 h-[900px] flex items-center justify-center">
+  <div className="w-full flex flex-col items-center justify-center">
+    <Image
+      src="/clover-logo.png"
+      alt="Clover Logo"
+      width={400}
+      height={150}
+      className="w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px]"
+      priority
+    />
+  </div>
+</section>
 
         {/* Coin Image */}
         {/* <div className="my-12 md:my-24 flex justify-center">
@@ -45,8 +42,15 @@ export default function Clover() {
 
         {/* Clover Description */}
         <section className="px-6 bg-[#bfd3c1] md:px-12 lg:px-24 py-12 md:py-20">
-          <p className="text-primary bg-[#313131] mt-50 mb-50 bg-clip-text text-white font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
-            At Clover believe that driving environmental impact should be made easy for everyone.
+
+                    <p className="text-primary  bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
+            {/* At Clover believe that driving environmental impact should be made easy for everyone. */}
+                       At Clover believe that driving environmental impact should be made easy for everyone.
+
+          </p>
+          <p className="text-primary bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
+            {/* At Clover believe that driving environmental impact should be made easy for everyone. */}
+            Rewards users for their sustainable energy habits.
              By achieving milestones and
             leveling up, users can earn Clover Tokens, which can be converted into
             Retail Rewards or Clover Coin.
@@ -62,14 +66,14 @@ export default function Clover() {
       <span className="text-green-400">I</span>
       <span className="text-blue-400">V</span>
       <span className="text-yellow-400">E</span> */}
-      <span className="text-red-500 ml-4">E</span>
-      <span className="text-red-800">l</span>
-      <span className="text-orange-400">e</span>
-      <span className="text-yellow-200">m</span>
-      <span className="text-green-400">e</span>
-      <span className="text-indigo-400">n</span>
-      <span className="text-indigo-700">t</span>
-      <span className="text-pink-300">s</span>
+      <span className="text-[#FE0002] ml-4  font-normal">E</span>
+      <span className="text-[#FEA211] font-normal">l</span>
+      <span className="text-[#E36A35] font-normal">e</span>
+      <span className="text-yellow-200 font-normal">m</span>
+      <span className="text-[#61D337] font-normal">e</span>
+      <span className="text-[#049BDA] font-normal">n</span>
+      <span className="text-indigo-700 font-normal">t</span>
+      <span className="text-[#C79FC4] font-normal">s</span>
     </h2>
     <p className="text-light font-light text-xl md:text-2xl max-w-4xl mx-auto">
       Discover how each element represents a different aspect of sustainable living
@@ -228,7 +232,7 @@ export default function Clover() {
       <div className="lg:w-1/2 flex justify-center">
         <div className="relative w-full  ">
           <Image 
-            src="/coin3.jpg" 
+            src="/coin4.jpg" 
             alt="Aether Coin" 
             width={600} 
             height={600}
@@ -296,7 +300,7 @@ export default function Clover() {
 {/* </section> */}
 
         {/* Earn Tokens Section */}
-      <section className="px-5 md:px-[5%] py-16 md:py-24">
+      <section className="px-5 md:px-[5%] bg-[#bfd3c1] py-16 md:py-24">
   <div className="max-w-6xl mx-auto">
     <h2 className="text-white font-light text-center uppercase text-4xl md:text-5xl 2xl:text-6xl mb-16 md:mb-24">
       How to earn <span className="text-green-500">Clover token</span>
