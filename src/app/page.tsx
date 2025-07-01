@@ -72,7 +72,7 @@ export default function Clover() {
       <span className="text-yellow-200 font-normal">m</span>
       <span className="text-[#61D337] font-normal">e</span>
       <span className="text-[#049BDA] font-normal">n</span>
-      <span className="text-indigo-700 font-normal">t</span>
+      <span className="text-[#305BAA] font-normal">t</span>
       <span className="text-[#C79FC4] font-normal">s</span>
     </h2>
     <p className="text-light font-light text-xl md:text-2xl max-w-4xl mx-auto">
