@@ -24,7 +24,7 @@ export default function Clover() {
       className="w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px]"
       priority
     />
-    <h3 className='text-9xl text-[#C79FC4] mt-10 font-extralight text-center'>clover</h3>
+    <h2 className='text-[140px] text-[#C79FC4] mt-5 font-extralight text-center'>clover</h2>
   </div>
 </section>
 
