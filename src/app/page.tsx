@@ -315,8 +315,8 @@ export default function Clover() {
         {/* Earn Tokens Section */}
       <section className="px-5 md:px-[5%] bg-[#bfd3c1] py-16 md:py-24">
   <div className="max-w-6xl mx-auto">
-    <h2 className="text-white font-light text-center uppercase text-4xl md:text-5xl 2xl:text-6xl mb-16 md:mb-24">
-      How to earn <span className="text-green-500">Clover tokens</span>
+    <h2 className="text-[#313131] font-light text-center uppercase text-4xl md:text-5xl 2xl:text-6xl mb-16 md:mb-24">
+      How to earn <span className="text-green-500">Clover </span>tokens
     </h2>
     
     <div className="space-y-8 md:space-y-12">
