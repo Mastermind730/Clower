@@ -45,9 +45,10 @@ export default function Clover() {
         {/* Clover Description */}
         <section className="px-6 bg-[#bfd3c1] md:px-12 lg:px-24 py-12 md:py-20">
 
-                    <p className="text-primary  bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
+                    <p className="text-primary flex flex-col items-center  bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
             {/* At Clover believe that driving environmental impact should be made easy for everyone. */}
-                       At Clover believe that driving environmental impact should be made easy for everyone.
+                       At Clover believe that driving environmental impact should be made 
+                       <span>easy for everyone.</span>
 
           </p>
           <p className="text-primary bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
@@ -487,7 +488,7 @@ export default function Clover() {
           Join the <span className="text-green-400 font-normal">community</span>
         </h2>
         
-        <p className="text-white/90 font-light text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-snug sm:leading-relaxed md:leading-relaxed max-w-[90%] md:max-w-[80%] mx-auto">
+        <p className="text-white/90 font-light text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-snug sm:leading-relaxed md:leading-relaxed max-w-[100%] md:max-w-[100%] mx-auto">
           Clover is a solo and multiplayer mission.<br className="hidden sm:block" />
           Join your community and compete to reach net zero together.
         </p>

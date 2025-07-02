@@ -64,7 +64,7 @@ export default function Navbar() {
               >
                 <Link
                   href={item.href}
-                  className={`${item.color} font-medium transition-colors duration-200`}
+                  className={`${item.color} font-medium flex items-center transition-colors duration-200`}
                 >
                   {item.label}
                 </Link>
