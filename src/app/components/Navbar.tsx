@@ -44,7 +44,7 @@ export default function Navbar() {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className=" mx-auto px-6 lg:px-8">
+      <div className="mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 left-0 text-4xl">
@@ -69,8 +69,9 @@ export default function Navbar() {
                   {item.label}
                 </Link>
                 {hoveredItem === item.label && (
-                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded whitespace-nowrap">
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 px-3 py-1.5 bg-gray-800/95 text-white text-sm rounded-md whitespace-nowrap shadow-lg border border-gray-700 transition-all duration-200">
                     Coming Soon
+                    <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-gray-800/95 rotate-45 border-t border-l border-gray-700"></div>
                   </div>
                 )}
               </div>
@@ -154,7 +155,7 @@ export default function Navbar() {
                 >
                   {item.label}
                 </Link>
-                <span className="absolute right-4 top-3 text-xs text-gray-400">
+                <span className="absolute right-4 top-3.5 text-xs text-gray-400 bg-gray-800/90 px-2 py-1 rounded">
                   Coming Soon
                 </span>
               </div>

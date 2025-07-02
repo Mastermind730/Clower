@@ -1,6 +1,7 @@
 import { SmartphoneCharging } from 'lucide-react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Clover() {
   return (
@@ -23,7 +24,7 @@ export default function Clover() {
       className="w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px]"
       priority
     />
-    <h3 className='text-8xl mt-10 font-extralight text-center'>clover</h3>
+    <h3 className='text-8xl text-[#C79FC4] mt-10 font-extralight text-center'>clover</h3>
   </div>
 </section>
 
@@ -90,7 +91,7 @@ export default function Clover() {
         overall energy consumption and making your home more energy-efficient.
       </p>
     </div>
-      <div className="max-w-md">
+         <div className="max-w-md">
       
       <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
       <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
@@ -99,7 +100,7 @@ export default function Clover() {
         footprint, using renewable energy sourcing and promoting sustainable practices.
       </p>
     </div>
-    
+       
   </div>
   
   <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
@@ -114,7 +115,7 @@ export default function Clover() {
   
   <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
    
-      <div className="max-w-md">
+     <div className="max-w-md">
 <Image 
   src="/air.png" 
   alt="Air" 
@@ -129,6 +130,8 @@ export default function Clover() {
         environment.
       </p>
     </div>
+    
+
 
     <div className="max-w-md">
       <Image src="/water.png" alt="Water" width={100} height={100} className="w-24" />
@@ -222,8 +225,8 @@ export default function Clover() {
            
            <span className="text-[#FE0002] ml-4  font-normal">A</span>
       {/* <span className="text-[#FEA211] font-normal">l</span> */}
-      <span className="text-[#E36A35] font-normal">e</span>
-      <span className="text-yellow-200 font-normal">t</span>
+      <span className="text-yellow-200 font-normal">e</span>
+      <span className="text-[#E36A35] font-normal">t</span>
       <span className="text-[#61D337] font-normal">h</span>
       {/* <span className="text-[#049BDA] font-normal">n</span> */}
       <span className="text-[#305BAA] font-normal">e</span>
@@ -324,13 +327,13 @@ export default function Clover() {
         {
           icon: "/token1.png",
           title: "Proof of Power",
-          description: "Users share their energy usage data. Coins are awarded based on the value and frequency of their data contributions.",
+          description: "Users share their energy usage data. Tokens are awarded based on the value and frequency of their data contributions.",
           align: "left"
         },
         {
           icon: "/token2.png",
           title: "Green Behaviour",
-          description: "Users track and reduce energy consumption. They earn coins for eco-friendly actions and completing sustainability challenges.",
+          description: "Users track and reduce energy consumption. They earn tokens for eco-friendly actions and completing sustainability challenges.",
           align: "right"
         },
         {
@@ -461,7 +464,7 @@ export default function Clover() {
 
 
           <section className="px-5 md:px-[2.5%] mb-10">
-  <div className="relative">
+  <Link href={"/coming_soon"} className="relative">
     {/* Desktop Background Image */}
     <Image
       src="/new_bg.png"
@@ -493,7 +496,7 @@ export default function Clover() {
         Join your community and compete to reach net zone together.
       </p>
     </div>
-  </div>
+  </Link>
 </section>
 
       </main>
