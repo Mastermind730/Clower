@@ -32,10 +32,10 @@ export default function Navbar() {
 
   const navItems = [
     { href: "/coming_soon", label: "Fire", color: "text-[#FE0002] hover:text-red-300" },
-    { href: "/coming_soon", label: "Air", color: "text-[#C79FC4] hover:text-pink-100" },
+    { href: "/coming_soon", label: "Air", color: "text-[#FEA211] hover:text-pink-100" },
     { href: "/coming_soon", label: "Earth", color: "text-[#61D337] hover:text-green-200" },
     { href: "/coming_soon", label: "Water", color: "text-[#049BDA] hover:text-blue-200" },
-    { href: "/coming_soon", label: "Ether", color: "text-[#FEA211] hover:text-yellow-200" },
+    { href: "/coming_soon", label: "Ether", color: "text-[#C79FC4] hover:text-yellow-200" },
   ];
 
   return (
@@ -69,9 +69,9 @@ export default function Navbar() {
                   {item.label}
                 </Link>
                 {hoveredItem === item.label && (
-                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 px-3 py-1.5 bg-gray-800/95 text-white text-sm rounded-md whitespace-nowrap shadow-lg border border-gray-700 transition-all duration-200">
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-3 px-6 py-4 bg-white text-black text-lg font-medium rounded-lg whitespace-nowrap shadow-xl border border-gray-200 transition-all duration-200 min-w-[140px]">
                     Coming Soon
-                    <div className="absolute -top-1.5 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-gray-800/95 rotate-45 border-t border-l border-gray-700"></div>
+                    <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white rotate-45 border-t border-l border-gray-200"></div>
                   </div>
                 )}
               </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
             {/* Contact Button - Mobile */}
             <Link
               href="/contact_us"
-              className="flex items-center space-x-2 bg-transparent border-2 border-green-400 hover:bg-green-400 text-green-400 hover:text-slate-800 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-300"
+              className="flex items-center space-x-2 bg-transparent border-2 border-white text-gray-400 hover:text-slate-300  px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-300"
             >
               <span>Contact</span>
               <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">

@@ -24,7 +24,7 @@ export default function Clover() {
       className="w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px]"
       priority
     />
-    <h3 className='text-8xl text-[#C79FC4] mt-10 font-extralight text-center'>clover</h3>
+    <h3 className='text-9xl text-[#C79FC4] mt-10 font-extralight text-center'>clover</h3>
   </div>
 </section>
 
@@ -52,7 +52,7 @@ export default function Clover() {
           </p>
           <p className="text-primary bg-[#313131] text-[#313131] mt-50 mb-50 bg-clip-text  font-light text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed md:leading-[3rem] lg:leading-[3.5rem]  tracking-wider">
             {/* At Clover believe that driving environmental impact should be made easy for everyone. */}
-            Rewards users for their sustainable energy habits.
+           Clover  rewards users for their sustainable energy habits.
              By achieving milestones and
             leveling up, users can earn Clover Rewards, which can be converted into
             Retail Rewards or Clover Coin.
@@ -69,8 +69,8 @@ export default function Clover() {
       <span className="text-blue-400">V</span>
       <span className="text-yellow-400">E</span> */}
       <span className="text-[#FE0002] ml-4  font-normal">E</span>
-      <span className="text-[#FEA211] font-normal">l</span>
-      <span className="text-[#E36A35] font-normal">e</span>
+      <span className="text-[#E36A35] font-normal">l</span>
+      <span className="text-[#FEA211] font-normal">e</span>
       <span className="text-yellow-200 font-normal">m</span>
       <span className="text-[#61D337] font-normal">e</span>
       <span className="text-[#049BDA] font-normal">n</span>
@@ -91,31 +91,8 @@ export default function Clover() {
         overall energy consumption and making your home more energy-efficient.
       </p>
     </div>
-         <div className="max-w-md">
-      
-      <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
-      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
-      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
-        Reduction of Carbon emissions - Level up by reducing your carbon
-        footprint, using renewable energy sourcing and promoting sustainable practices.
-      </p>
-    </div>
-       
-  </div>
-  
-  <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
-    <Image
-      src="/cloverlogo.png"
-      alt="Clover Logo"
-      width={200}
-      height={200}
-      className="w-48 md:w-64 2xl:w-auto"
-    />
-  </div>
-  
-  <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
-   
-     <div className="max-w-md">
+         
+            <div className="max-w-md">
 <Image 
   src="/air.png" 
   alt="Air" 
@@ -131,6 +108,29 @@ export default function Clover() {
       </p>
     </div>
     
+  </div>
+  
+  <div className="my-20 lg:my-0 2xl:my-0 flex justify-center">
+    <Image
+      src="/cloverlogo.png"
+      alt="Clover Logo"
+      width={200}
+      height={200}
+      className="w-48 md:w-64 2xl:w-auto"
+    />
+  </div>
+  
+  <div className="flex flex-col md:flex-row lg:items-center justify-between gap-20 md:gap-10 lg:gap-0">
+   <div className="max-w-md">
+      
+      <Image src="/earth.png" alt="Earth" width={100} height={100} className="w-24" />
+      <h3 className="text-white font-extralight text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl mt-3 2xl:mt-8 2xl:mb-2">Earth</h3>
+      <p className="text-light font-light text-xl md:text-2xl lg:text-xl 2xl:text-3xl leading-relaxed md:leading-[2.5rem] lg:leading-[2rem] 2xl:leading-[3.5rem]">
+        Reduction of Carbon emissions - Level up by reducing your carbon
+        footprint, using renewable energy sourcing and promoting sustainable practices.
+      </p>
+    </div>
+
 
 
     <div className="max-w-md">
@@ -225,8 +225,8 @@ export default function Clover() {
            
            <span className="text-[#FE0002] ml-4  font-normal">A</span>
       {/* <span className="text-[#FEA211] font-normal">l</span> */}
-      <span className="text-yellow-200 font-normal">e</span>
-      <span className="text-[#E36A35] font-normal">t</span>
+      <span className="text-[#E36A35] font-normal">e</span>
+      <span className="text-yellow-200 font-normal">t</span>
       <span className="text-[#61D337] font-normal">h</span>
       {/* <span className="text-[#049BDA] font-normal">n</span> */}
       <span className="text-[#305BAA] font-normal">e</span>
@@ -235,7 +235,7 @@ export default function Clover() {
            
             <span className=' ml-2 text-white'>Coin</span>
         </h2>
-        <p className="text-gray-300 font-light text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose">
+        <p className="text-light font-light text-lg md:text-xl 2xl:text-2xl leading-relaxed">
           As you progress on your journey, you&apos;ll be rewarded with Clover
           Aether coins, the ultimate symbol of sustainable energy achievement.
           The Aether Coin represents the pinnacle of our collective efforts to
@@ -463,42 +463,38 @@ export default function Clover() {
         </section> */}
 
 
-          <section className="px-5 md:px-[2.5%] mb-10">
-  <Link href={"/coming_soon"} className="relative">
-    {/* Desktop Background Image */}
-    <Image
-      src="/new_bg.png"
-      alt="Community Background"
-      width={1500}
-      height={500}
-      className="hidden md:block w-full"
-    />
-
-
-    {/* Bottom-Centered Image ON Mobile (Overlayed) */}
-    {/* <div className="md:hidden absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10">
+        <section className="relative w-full overflow-hidden mb-10 md:mb-16 lg:mb-20">
+  <Link href="/coming_soon" className="block group">
+    {/* Background Image Container - Responsive with safe aspect ratios */}
+    <div className="relative w-full h-[50vh] md:h-[75vh] lg:h-[80vh] min-h-[300px] max-h-[900px]">
       <Image
-        src="/ev-benefit2.png"
-        alt="Overlay at Bottom Center"
-        width={300}
-        height={150}
-        className="w-auto"
+        src="/new_bg.png"
+        alt="Community Background"
+        fill
+        className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+        priority
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
       />
-    </div> */}
+      
+      {/* Gradient overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-black/20" />
+    </div>
 
-    {/* Text Overlay */}
-    <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 z-20">
-      <h2 className="text-white font-extralight uppercase text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl mb-4">
-        Join the <span className="text-primary text-green-500">community</span>
-      </h2>
-      <p className="text-white font-light text-lg md:text-xl 2xl:text-3xl leading-relaxed">
-        Clover is a solo and multiplayer mission.<br />
-        Join your community and compete to reach net zone together.
-      </p>
+    {/* Content Container - Centered with responsive padding */}
+    <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto space-y-3 sm:space-y-4 lg:space-y-6 px-4">
+        <h2 className="text-white font-light uppercase tracking-wider text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          Join the <span className="text-green-400 font-normal">community</span>
+        </h2>
+        
+        <p className="text-white/90 font-light text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-snug sm:leading-relaxed md:leading-relaxed max-w-[90%] md:max-w-[80%] mx-auto">
+          Clover is a solo and multiplayer mission.<br className="hidden sm:block" />
+          Join your community and compete to reach net zero together.
+        </p>
+      </div>
     </div>
   </Link>
 </section>
-
       </main>
     </div>
   );
