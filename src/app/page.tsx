@@ -489,7 +489,7 @@ export default function Clover() {
         </h2>
         
         <p className="text-white/90 font-light text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-snug sm:leading-relaxed md:leading-relaxed max-w-[100%] md:max-w-[100%] mx-auto">
-          Clover is a solo and multiplayer mission.<br className="hidden sm:block" />
+          {/* Clover is a solo and multiplayer mission.<br className="hidden sm:block" /> */}
           Join your community and compete to reach net zero together.
         </p>
       </div>
