@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Sofia_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,20 @@ export default function RootLayout({
     <>
     <Navbar/>
     <html lang="en">
+      <head>
+      <Script async
+          src="/assets/scripts/lang-config.js"
+          strategy="beforeInteractive"
+        />
+        <Script async
+          src="/assets/scripts/translation.js"
+          strategy="beforeInteractive"
+        />
+        <Script async
+          src="//translate.google.com/translate_a/element.js?cb=TranslateInit"
+          strategy="afterInteractive"
+        />
+        </head>
       <body
         className={`${inter.variable} ${inter.className} antialiased`}
       >
